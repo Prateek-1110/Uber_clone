@@ -136,6 +136,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you like this project, consider ⭐ starring the repo or giving it a fork!
 
-```
 
 
