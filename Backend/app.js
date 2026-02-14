@@ -12,7 +12,14 @@ const captainRoutes = require('./routes/captain.route');
 const mapsRoutes = require('./routes/maps.routes');
 const rideRoutes = require('./routes/ride.routes');
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://uber-clone-zeta-neon.vercel.app/"
+  ],
+  credentials: true
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
