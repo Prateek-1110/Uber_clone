@@ -6,9 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 import MainContext from "./Context/MainContext.jsx";
 import CaptainContext from "./Context/CaptainContext.jsx";
 import SocketProvider from "./Context/SocketContext.jsx";
-console.log("ENV OBJECT:", import.meta.env);
-console.log("BASE URL:", import.meta.env.VITE_BASE_URL);
-
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
