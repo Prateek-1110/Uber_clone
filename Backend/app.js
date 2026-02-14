@@ -15,7 +15,7 @@ const rideRoutes = require('./routes/ride.routes');
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://uber-clone-zeta-neon.vercel.app/"
+    "https://uber-clone-zeta-neon.vercel.app"
   ],
   credentials: true
 }));
