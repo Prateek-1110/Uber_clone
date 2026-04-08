@@ -22,7 +22,7 @@ A full-stack Uber-like ride-hailing application built using the **MERN stack** (
 
 ```
 
-Uber\_clone/
+Uber_clone/
 ├── Backend/       # Node.js + Express + MongoDB
 │   ├── controllers/
 │   ├── models/
@@ -121,8 +121,8 @@ You can test the app with tools like:
 
 ## 🧑‍💻 Author
 
-**Prateek Singh**
-GitHub: [@Prateek-1110](https://github.com/Prateek-1110)
+**Prateek Agrahari**
+GitHub: [Prateek-1110](https://github.com/Prateek-1110)
 
 ---
 
